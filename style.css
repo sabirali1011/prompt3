@@ -1,0 +1,84 @@
+@font-face {
+    font-family: mont;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+
+   
+    background-image: url(./caroline-hernandez-s7cX3UfuFAA-unsplash.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+  font-family: mont;
+    
+}
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: c;
+    padding: 25px;
+    font-family: mont;
+}
+
+.main .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.nav .content h4{
+   font-weight: 400;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    font-family: mont;
+}
+/* span{
+    color: black;
+} */
+
+/* content sections  */
+.maincontent{
+    font-family: mont;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;  
+    display: block;
+    margin-left: 12%;
+}
+.maincontent .button{
+    margin-left: 40%;
+    padding: 15px;
+    
+}
+.button:hover{
+    
+    animation-name: move;
+    animation-duration: 2s;
+    
+}
+
+@keyframes move {
+    to{
+        scale: 1.2;
+        
+    }
+}
